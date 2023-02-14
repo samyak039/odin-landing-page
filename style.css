@@ -35,7 +35,6 @@ img.main {
 
 .header-link ul {
   gap: 36px;
-
 }
 
 .secondary {
@@ -45,6 +44,17 @@ img.main {
 
 .page-block {
   display: flex;
+  justify-content: space-around;
+  padding: 5rem 1rem;
+}
+
+.left-page-block,
+.right-page-block {
+  width: 30vw;
+}
+
+.right-page-block {
+  align-items: center;
 }
 
 .heading {
@@ -53,9 +63,39 @@ img.main {
   color: #f9faf8;
 }
 
+.information .heading {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+}
+
+.information {
+  align-items: center;
+  padding: 5rem 1rem;
+}
+
 .footer {
   padding: 0.75em;
   text-align: center;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #7aa8b7;
+  border-radius: 6px;
+  outline: none;
+}
+
+.sign-up {
+  background: #3882f6;
+  border-radius: 8px;
+  padding: 8px 30px;
+  width: fit-content;
+  font-weight: bold;
 }
 
 .dark-background {
